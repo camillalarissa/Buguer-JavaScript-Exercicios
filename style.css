@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgba(29, 29, 29, 0.9), rgba(29, 29, 29, 0.9)), url(assets/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-buttons {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+    outline: none;
+    border: none;
+    background-color: #FFE73E;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    margin-top: 75px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+li {
+    border: 2px solid #FFE73E;
+}
+
+img {
+    width: 100%;
+}
+
+
+.paragrafo {
+    color: #FFE73E;
+    font-weight: bold;
+
+}
+
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+@media(max-width:726px) {
+
+    ul {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+
+    }
+
+    img {
+        width: 75%;
+    }
+
+    button {
+        width: 100px;
+        height: 80px;
+        font-size: 15px;
+    }
+
+
+}
